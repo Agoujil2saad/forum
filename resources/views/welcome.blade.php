@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="hero_slider/css/style.css"> <!-- Resource style -->
 {{-- clipped_svg_slider --}}
 <link rel="stylesheet" href="clipped_svg_slider/css/style.css"> <!-- Resource style -->
+{{-- counter down --}}
+<link rel="stylesheet" href="counter_down/css/style.css">
 @endsection
 
 @section('content')
@@ -21,19 +23,19 @@
             <li class="selected">
                 <div class="cd-full-width">
                     <h2 style="font-weight: 900;">1er Forum de dialogue et de l’investissement Africain </h2>
-                    <p style="color :black; font-weight: 900"> 29-30 Mars 2017  Meknès .</p>
+    
                 </div> <!-- .cd-full-width -->
             </li>
 
             <li>
                 <div class="cd-half-width">
                     <h2>
-                     Le groupe BALLET LIZIBA 
-                     Barbara Kallem (USA) 
-                     Hatim Idar
-                     Attika Ammar ...
-                 </h2>
-                 <p>
+                       Le groupe BALLET LIZIBA 
+                       Barbara Kallem (USA) 
+                       Hatim Idar
+                       Attika Ammar ...
+                   </h2>
+                   <p>
                     Des concerts publics ceux qui avaient envie de sonorités africaines étaient bien servis. Mariage inimaginable entre couleurs folkloriques et musique moderne.
                 </p>
             </div> <!-- .cd-half-width -->
@@ -142,19 +144,19 @@
               3
           </div>
           <div class="label">
-           Million de Dirham
-       </div>
-   </div>
-   <div class="statistic">
-    <div class="text value">
-        50000
-    </div>
-    <div class="label">
-      visiteurs
+             Million de Dirham
+         </div>
+     </div>
+     <div class="statistic">
+        <div class="text value">
+            50000
+        </div>
+        <div class="label">
+          visiteurs
+      </div>
   </div>
-</div>
-<div class="statistic">
- <div class="value">
+  <div class="statistic">
+   <div class="value">
     <i class="users icon"></i>  700 +
 </div>
 <div class="label">
@@ -175,25 +177,6 @@
 </div>
 </div>
 
-<div class="row" style="padding: 4em 0;">
-    <center>
-        <div class="ui green large dividing header" id="partenaires">
-            <i class="money green icon"></i>
-            @lang('lang.spons')
-        </div>
-    </center>
-</div>
-<div class="row" style="padding: 2em 0;">
-    <div class="nine wide column">
-        <div class="ui inverted green segment">
-            <h1 style="padding:2em 0;text-align:center;">
-                <i class='inverted large handshake icon'></i>
-                <br>
-                Devenir Partenaire
-            </h1>
-        </div>
-    </div>
-</div>
 
 
 
@@ -419,37 +402,24 @@
                 </div> <!-- .svg-wrapper -->
             </li>
 
+           
+            @for ($i = 4; $i < 12; $i++)
             <li>
                 <div class="svg-wrapper">
                     <svg viewBox="0 0 800 800">
                         <title>Animated SVG</title>
                         <defs>
-                            <clipPath id="cd-image-4">
-                                <path id="cd-morphing-path-4" d="M654.559,145.441C584.264,75.148,492.133,40,400,40S215.736,75.148,145.441,145.441 C75.148,215.736,40,307.867,40,400s35.148,184.264,105.441,254.559C215.736,724.852,307.867,760,399.999,760 c92.133,0,184.265-35.148,254.559-105.441C724.852,584.264,760,492.133,760,400.001C760,307.869,724.852,215.736,654.559,145.441z"/>
+                            <clipPath id={{"cd-image-".$i}}>
+                                <path id={{"#cd-morphing-path-".$i}} d="M654.559,145.441C584.264,75.148,492.133,40,400,40S215.736,75.148,145.441,145.441 C75.148,215.736,40,307.867,40,400s35.148,184.264,105.441,254.559C215.736,724.852,307.867,760,399.999,760 c92.133,0,184.265-35.148,254.559-105.441C724.852,584.264,760,492.133,760,400.001C760,307.869,724.852,215.736,654.559,145.441z"/>
                             </clipPath>
                         </defs>
 
-                        <image height='800px' width="800px" clip-path="url(#cd-image-4)" xlink:href="images/mini_slider_2/slider4.jpg"></image>
-                        <use xlink:href="#cd-morphing-path-4" class="cover-layer" />
+                        <image height='800px' width="800px" clip-path={{"url(#cd-image-".$i.")"}} xlink:href={{"images/mini_slider_2/slider".$i.".jpg"}}></image>
+                        <use xlink:href={{"#cd-morphing-path-".$i}} class="cover-layer" />
                     </svg>
                 </div> <!-- .svg-wrapper -->
             </li>
-
-            <li>
-                <div class="svg-wrapper">
-                    <svg viewBox="0 0 800 800">
-                        <title>Animated SVG</title>
-                        <defs>
-                            <clipPath id="cd-image-5">
-                                <path id="cd-morphing-path-5" d="M654.559,145.441C584.264,75.148,492.133,40,400,40S215.736,75.148,145.441,145.441 C75.148,215.736,40,307.867,40,400s35.148,184.264,105.441,254.559C215.736,724.852,307.867,760,399.999,760 c92.133,0,184.265-35.148,254.559-105.441C724.852,584.264,760,492.133,760,400.001C760,307.869,724.852,215.736,654.559,145.441z"/>
-                            </clipPath>
-                        </defs>
-
-                        <image height='800px' width="800px" clip-path="url(#cd-image-5)" xlink:href="images/mini_slider_2/slider5.jpg"></image>
-                        <use xlink:href="#cd-morphing-path-5" class="cover-layer" />
-                    </svg>
-                </div> <!-- .svg-wrapper -->
-            </li>
+            @endfor
         </ul>
 
         <nav>
@@ -470,7 +440,41 @@
 </div> <!-- .cd-svg-clipped-slider -->
 </div>
 
+<div class="row">   
+    <h1 class="ui green large header dividing">
+        Le deuxième Forum du Dialogue et de l’Investissement Africain  
+    </h1>
 
+
+    <div class="wrapper">
+
+    <h3 class="ui green small header">
+        Ouverture dans:
+    </h3>
+        <time id="count-down" datetime="2017-05-06T00:00:00"></time>
+   </div>
+</div>
+
+
+<div class="row" style="padding: 4em 0;">
+    <center>
+        <div class="ui green large dividing header" id="partenaires">
+            <i class="money green icon"></i>
+            @lang('lang.spons')
+        </div>
+    </center>
+</div>
+<div class="row" style="padding: 2em 0;">
+    <div class="nine wide column">
+        <div class="ui inverted green segment">
+            <h1 style="padding:2em 0;text-align:center;">
+                <i class='inverted large handshake icon'></i>
+                <br>
+                Devenir Partenaire
+            </h1>
+        </div>
+    </div>
+</div>
 
 @endsection
 
@@ -481,4 +485,6 @@
 {{-- clipped_svg_slider --}}
 <script src="clipped_svg_slider/js/snap.svg-min.js"></script>
 <script src="clipped_svg_slider/js/main.js"></script> <!-- Resource jQuery -->
+{{-- counter_down --}}
+<script  src="counter_down/js/index.js"></script>
 @endsection

@@ -203,22 +203,22 @@ ul {
 				</a>
 				<a class="item" href="/photo#galery2">
 					<i class="camera retro icon blue"></i>
-					 Visite du président 
+					ساحة الادرية
 				<a class="item" href="/photo#galery3">
 					<i class="camera retro icon blue"></i>
-						Lancement de 
+						ساحة الهديم
 				</a>
 				<a class="item" href="/photo#galery4">
 					<i class="camera retro icon blue"></i>
-					Lancement de 
+					القصر البلادي
 				</a>
 				<a class="item" href="/photo#galery5">
 					<i class="camera retro icon blue"></i>
-					Lancement de l’a
+					منزه الدلية
 				</a>
 				<a class="item" href="/photo#galery6">
 					<i class="camera retro icon blue"></i>
-					 panafricaine de sport Meknès
+					 مقر وزارة الاوقاف مكناس
 				</a>
 			</div>
 		</center>
@@ -307,6 +307,8 @@ ul {
 
 </div>
 </div>
+
+
 @endsection
 
 @section('scripts')

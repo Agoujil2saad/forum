@@ -34,7 +34,6 @@ if (! isset($active_page)) {
     <i class="dropdown icon"></i>
     <div class="menu">
       <a class="item" href="/photo"> @lang('lang.photo_l')</a>
-      <a class="item" href="/#videos"> @lang('lang.video_l')</a>
       <a class="item" href="/tv_videos"> @lang('lang.tv_l')</a>
       <a class="item" href="/presse_ecrite"> @lang('lang.presse_l')</a>
     </div>
@@ -54,9 +53,9 @@ if (! isset($active_page)) {
   </span>
   <i class="dropdown icon"></i>
   <div class="menu">
-    <div class="item">Caravane culturelle  <br>et 
-    de l'intégration africaine</div>
-    <div class="item"> Forum du dialogue <br>et de l'investissement</div>
+  <a class="item" target="_blank" href="http:\\caravane.jesuisafrica.org" >Caravane culturelle  <br>et 
+    de l'intégration africaine</a>
+    <a class="item" href="http:\\forum.jesuisafrica.org" target="blank"> Forum du dialogue <br>et de l'investissement</a>
     <div class="item">  Académie Panafricaine  <br>de Football </div>
     <div class="item"> Radio-Tv <br>( voice of Africa )</div>
     <div class="item"> Institut des Relations <br>  Economiques Maroco-Africaines</div>
@@ -76,10 +75,6 @@ if (! isset($active_page)) {
   </div>
 </div>
 {{-- 7 --}}
-<div class="item">
-  <a class="ui green tiny button" href="/join_us">@lang('lang.join_us')</a>
-</div>
-{{-- 8 --}}
 <div class="item">
   <div class="ui pointing dropdown">
     <span class=" small text">
@@ -143,7 +138,6 @@ if (! isset($active_page)) {
   <i class="dropdown icon"></i>
   <div class="menu">
     <a class="item" href="/photo"> @lang('lang.photo_l')</a>
-    <a class="item" href="/#videos"> @lang('lang.video_l')</a>
     <a class="item" href="/tv_videos"> @lang('lang.tv_l')</a>
     <a class="item" href="/presse_ecrite"> @lang('lang.presse_l')</a>
   </div>
@@ -161,8 +155,9 @@ if (! isset($active_page)) {
   </span>
   <i class="dropdown icon"></i>
   <div class="menu">
-    <div class="item">Caravane culturelle et de l'intégration africaine</div>
-    <div class="item"> Forum du dialogue et de l'investissement</div>
+    <a class="item" target="_blank" href="http:\\caravane.jesuisafrica.org" >Caravane culturelle  <br>et 
+    de l'intégration africaine</a>
+    <a class="item" href="http:\\forum.jesuisafrica.org" target="blank"> Forum du dialogue <br>et de l'investissement</a>
     <div class="item"> Académique Panafricaine de Football</div>
     <div class="item"> Radio-Tv ( voice of Africa )</div>
     <div class="item"> Institut des Relations Economiques Maroco-Africaines</div>
@@ -181,10 +176,6 @@ if (! isset($active_page)) {
 </div>
 
 {{-- 7 --}}
-<div class="fitted item">
-  <a class="ui green tiny button" href="/join_us">@lang('lang.join_us')</a>
-</div>
-
 <div class="item">
   <div class="ui pointing dropdown">
     <span class=" small text">
