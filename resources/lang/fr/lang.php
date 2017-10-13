@@ -137,6 +137,8 @@ Rehausser le niveau de prise de conscience chez les jeunes et les inciter à as
 'presse_l' => 'Presse Électronique',
 'join_us' => 'Nous rejoindre',
 'envoyer_demande' => 'Envoyer ma demande',
+'info_pr' => 'Infos pratiques',
+'restos' => 'Hébergement et Restauration',
 
 
 

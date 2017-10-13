@@ -30,6 +30,12 @@ class StaticPagesController extends Controller
 		$active_page='/photos';
 		return view('photos',compact('active_page'));
 	}
+	public function restos()
+	{
+		$active_page='/restos';
+		return view('resto',compact('active_page'));
+	}
+
 	public function qui_sommes_nous()
 	{
 		$active_page='/';

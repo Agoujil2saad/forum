@@ -75,6 +75,18 @@ if (! isset($active_page)) {
   </div>
 </div>
 {{-- 7 --}}
+  <div class="item">
+   <div class="ui dropdown ">
+    <span class="text">
+      <span class="ui green  tiny header">@lang('lang.info_pr')</span>
+    </span>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="item" href="/photo"> @lang('lang.restos')</a>
+    </div>
+  </div>
+</div>
+{{-- 8 --}}
 <div class="item">
   <div class="ui pointing dropdown">
     <span class=" small text">
@@ -176,6 +188,18 @@ if (! isset($active_page)) {
 </div>
 
 {{-- 7 --}}
+  <div class="item">
+   <div class="ui dropdown ">
+    <span class="text">
+      <span class="ui green  tiny header">@lang('lang.info_pr')</span>
+    </span>
+    <i class="dropdown icon"></i>
+    <div class="menu">
+      <a class="item" href="/restos"> @lang('lang.restos')</a>
+    </div>
+  </div>
+</div>
+{{-- 8 --}}
 <div class="item">
   <div class="ui pointing dropdown">
     <span class=" small text">

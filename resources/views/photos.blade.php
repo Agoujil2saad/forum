@@ -199,7 +199,7 @@ ul {
 			<div class="ui mini vertical labeled icon menu">
 				<a class="item" href="/photo#galery1">
 					<i class="camera retro icon blue"></i>
-					 sahra
+					سهرة فنية
 				</a>
 				<a class="item" href="/photo#galery2">
 					<i class="camera retro icon blue"></i>

@@ -11,6 +11,7 @@
   <link rel="stylesheet" type="text/css" href="{{ asset('css/index.css') }}">
     @yield('styles')
   <link rel="stylesheet" type="text/css" href="{{ asset('css/semantic.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
   <style>
   #pusher{
     visibility: visible;
@@ -58,6 +59,10 @@
   .dropdown({
     action: 'nothing'
   });
+
+  $('.ui.rating')
+  .rating('disable')
+;
     $("#pusher").click(()=>{
       $('.ui.sidebar')
       .sidebar('toggle')
@@ -82,7 +87,10 @@
       });   
     }(jQuery));
   </script>
-  
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+ <script>
+    AOS.init();
+  </script>
   @yield('scripts')
 </body>
 </html>
