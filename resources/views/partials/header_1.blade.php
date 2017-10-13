@@ -82,7 +82,7 @@ if (! isset($active_page)) {
     </span>
     <i class="dropdown icon"></i>
     <div class="menu">
-      <a class="item" href="/photo"> @lang('lang.restos')</a>
+      <a class="item" href="/restos"> @lang('lang.restos')</a>
     </div>
   </div>
 </div>
