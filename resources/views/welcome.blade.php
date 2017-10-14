@@ -23,7 +23,7 @@
             <li class="selected">
                 <div class="cd-full-width">
                     <h2 style="font-weight: 900;">1er Forum de dialogue et de l’investissement Africain </h2>
-    
+
                 </div> <!-- .cd-full-width -->
             </li>
 
@@ -94,7 +94,7 @@
 </section> <!-- .cd-hero -->
 </div>
 
-<div class="row" style="padding: 0">
+<div class="row" style="padding: 0"  data-aos="zoom-out-down">
     <main class="cd-main">
         <ul class="cd-gallery">
             <li class="cd-item">
@@ -133,22 +133,20 @@
 
 <div class="row">
     <div class="column">
-
-        <div class="ui divider"></div>
-        <h1 class="ui green header">Forum du Dialogue et de l’Investissement Africain en quelque chiffre </h1>
+        <h1 class="ui green header"  data-aos="zoom-out-down">Forum du Dialogue et de l’Investissement Africain en quelque chiffre </h1>
         <div class="ui inverted four statistics" style="background-color: #0093E9;
         background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); padding: 3em 0;
         ">
         <div class="statistic">
             <div class="value">
-              3
+              3 Million
           </div>
           <div class="label">
-             Million de Dirham
+              de Dirham
          </div>
      </div>
      <div class="statistic">
-        <div class="text value">
+        <div class="value">
             50000
         </div>
         <div class="label">
@@ -181,14 +179,12 @@
 
 
 <div class="row">
-
-
     <div class="cd-svg-clipped-slider" data-selected="M780,0H20C8.954,0,0,8.954,0,20v760c0,11.046,8.954,20,20,20h760c11.046,0,20-8.954,20-20V20
     C800,8.954,791.046,0,780,0z" data-lateral="M795.796,389.851L410.149,4.204c-5.605-5.605-14.692-5.605-20.297,0L4.204,389.851
     c-5.605,5.605-5.605,14.692,0,20.297l385.648,385.648c5.605,5.605,14.692,5.605,20.297,0l385.648-385.648
     C801.401,404.544,801.401,395.456,795.796,389.851z">
 
-    <h1 class=" ui green  large header dividing">Animations et Festivités</h1>
+    <h1 class=" ui green huge header dividing"  data-aos="zoom-out-down">Animations et Festivités</h1>
 
     <div class="gallery-wrapper">
         <ul class="gallery">
@@ -329,7 +325,7 @@
         </nav>
     </div> <!-- .gallery-wrapper -->
 
-    <ul class="caption">
+{{--     <ul class="caption">
         <li class="left"></li>
         <li class="selected"></li>
         <li class="right"></li>
@@ -339,8 +335,8 @@
         <li></li>
         <li></li>
 
-    </ul>
-</div> <!-- .cd-svg-clipped-slider -->
+    </ul> --}}
+    </div> <!-- .cd-svg-clipped-slider -->
 </div>
 
 
@@ -350,7 +346,7 @@
     C75.148,215.736,40,307.867,40,400s35.148,184.264,105.441,254.559C215.736,724.852,307.867,760,399.999,760
     c92.133,0,184.265-35.148,254.559-105.441C724.852,584.264,760,492.133,760,400.001C760,307.869,724.852,215.736,654.559,145.441z">
 
-    <h1 class=" ui green  large header dividing">Conférences</h1>
+    <h1 class=" ui green huge header dividing">Conférences</h1>
 
     <div class="gallery-wrapper">
         <ul class="gallery">
@@ -402,7 +398,7 @@
                 </div> <!-- .svg-wrapper -->
             </li>
 
-           
+
             @for ($i = 4; $i < 12; $i++)
             <li>
                 <div class="svg-wrapper">
@@ -430,35 +426,35 @@
         </nav>
     </div> <!-- .gallery-wrapper -->
 
-    <ul class="caption">
+   {{--  <ul class="caption">
         <li class="left"></li>
         <li class="selected"></li>
         <li class="right"></li>
         <li></li>
         <li></li>
-    </ul>
+    </ul> --}}
 </div> <!-- .cd-svg-clipped-slider -->
 </div>
 
 <div class="row">   
-    <h1 class="ui green large header dividing">
+    <h1 class="ui green large header dividing" data-aos="zoom-out-down">
         Le deuxième Forum du Dialogue et de l’Investissement Africain  
     </h1>
 
 
     <div class="wrapper">
 
-    <h3 class="ui green small header">
-        Ouverture dans:
-    </h3>
+        <h3 class="ui green small header">
+            Ouverture dans:
+        </h3>
         <time id="count-down" datetime="2017-05-06T00:00:00"></time>
-   </div>
+    </div>
 </div>
 
 
 <div class="row" style="padding: 4em 0;">
     <center>
-        <div class="ui green large dividing header" id="partenaires">
+        <div class="ui green large dividing header" id="partenaires"  data-aos="zoom-out-down">
             <i class="money green icon"></i>
             @lang('lang.spons')
         </div>
