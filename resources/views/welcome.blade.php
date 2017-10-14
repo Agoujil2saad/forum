@@ -94,7 +94,7 @@
 </section> <!-- .cd-hero -->
 </div>
 
-<div class="row" style="padding: 0"  data-aos="zoom-out-down">
+<div class="row" style="padding: 0">
     <main class="cd-main">
         <ul class="cd-gallery">
             <li class="cd-item">
