@@ -114,6 +114,22 @@
                     </div>
                 </a>
             </li>
+              <li class="cd-item">
+                <a href="3d_folding_panel/item-3.html" class="dark-text">
+                    <div>
+                        <h2> <i class="music icon"></i>Artistes</h2>
+                        <b>SAVOIR PLUS</b>
+                    </div>
+                </a>
+            </li>
+              <li class="cd-item">
+                <a href="3d_folding_panel/item-4.html" class="dark-text">
+                    <div>
+                        <h2> <i class="university icon"></i>Ateliers</h2>
+                        <b>SAVOIR PLUS</b>
+                    </div>
+                </a>
+            </li>
         </ul> <!-- .cd-gallery -->
     </main> <!-- .cd-main -->
 
