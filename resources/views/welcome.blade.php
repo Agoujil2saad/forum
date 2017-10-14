@@ -134,8 +134,10 @@
 <div class="row">
     <div class="column">
         <h1 class="ui green header"  data-aos="zoom-out-down">Forum du Dialogue et de l’Investissement Africain en quelque chiffre </h1>
-        <div class="ui inverted four statistics" style="background-color: #0093E9;
-        background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); padding: 3em 0;
+        <div class="ui inverted four statistics" style="background-color: #005000;
+background-image: linear-gradient(132deg, #005000 0%, #006400 100%);
+
+ padding: 3em 0;
         ">
         <div class="statistic">
             <div class="value">
